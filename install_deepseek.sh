@@ -6,4 +6,4 @@ conda activate ollama_env
 # Ollama核心组件
 curl -fsSL https://ollama.com/install.sh | sh
 pip install ollama open-webui
-ollama serve
+ollama serve & 
